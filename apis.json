@@ -1,0 +1,127 @@
+{
+    "name": "Respoke",
+    "description": "<p>Respoke makes it incredibly easy to add real-time communications capabilities to the things you build. Integrate text chat, audio calling, video collaboration, screen sharing, and peer-to-peer data with just a few lines of JavaScript.<\/p>",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/respoke-web-communications-300x101.jpg",
+    "tags": [
+        "change log example",
+        "have api",
+        "relative data",
+        "service api",
+        "target"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/respoke\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Respoke REST API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/respoke-web-communications-300x101.jpg",
+            "humanURL": "http:\/\/respoke.io",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/respoke-rest-api.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Account Management",
+            "url": "https:\/\/portal.respoke.io\/#\/account?section=Profile"
+        },
+        {
+            "type": "Application Management",
+            "url": "https:\/\/portal.respoke.io\/#\/apps"
+        },
+        {
+            "type": "Authentication",
+            "url": "https:\/\/docs.respoke.io\/tutorials\/brokered-auth.html"
+        },
+        {
+            "type": "Billing Management",
+            "url": "https:\/\/portal.respoke.io\/#\/account?section=Payments"
+        },
+        {
+            "type": "Blog",
+            "url": "http:\/\/blog.respoke.io\/"
+        },
+        {
+            "type": "Blog RSS",
+            "url": "http:\/\/blog.respoke.io\/rss"
+        },
+        {
+            "type": "Change Logs",
+            "url": "https:\/\/docs.respoke.io\/reference\/changelog.html"
+        },
+        {
+            "type": "Developers",
+            "url": "https:\/\/portal.respoke.io"
+        },
+        {
+            "type": "Documentation",
+            "url": "https:\/\/docs.respoke.io\/"
+        },
+        {
+            "type": "Email",
+            "url": "info@respoke.io"
+        },
+        {
+            "type": "Facebook",
+            "url": "https:\/\/www.facebook.com\/respokeIO"
+        },
+        {
+            "type": "Forums",
+            "url": "http:\/\/community.respoke.io\/"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/respoke"
+        },
+        {
+            "type": "Google Plus",
+            "url": "https:\/\/plus.google.com\/+RespokeIo"
+        },
+        {
+            "type": "JavaScript Library",
+            "url": "https:\/\/docs.respoke.io\/js-library\/respoke.html"
+        },
+        {
+            "type": "Node.js Library",
+            "url": "http:\/\/respoke.github.io\/node-respoke-admin"
+        },
+        {
+            "type": "Pricing",
+            "url": "https:\/\/www.respoke.io\/#pricing"
+        },
+        {
+            "type": "Registration",
+            "url": "https:\/\/www.respoke.io\/#sign-up-form"
+        },
+        {
+            "type": "Starter Apps",
+            "url": "https:\/\/docs.respoke.io\/tutorials\/example-apps.html"
+        },
+        {
+            "type": "Terms of Service",
+            "url": "https:\/\/www.respoke.io\/files\/respoke-tos-20141007.pdf"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/respoke"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/www.respoke.io"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/respoke.io"
+        }
+    ]
+}
