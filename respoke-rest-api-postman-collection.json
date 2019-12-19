@@ -1,0 +1,327 @@
+{
+    "id": "255b92d6c19a3024629fe9d0331d3bb2",
+    "name": "Respoke REST API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "4bab811d11ee95fc870cd6faed8b2c86",
+            "name": "Admin Sessions",
+            "url": "httpsapi.respoke.iov1\/admin-sessions\/",
+            "description": "Log in with the account username and password. Get an Admin-Token.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "password",
+                    "description": "Your password.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "username",
+                    "description": "Your username.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "255b92d6c19a3024629fe9d0331d3bb2",
+            "rawModeData": ""
+        },
+        {
+            "id": "a0598091088e58fbe7cb4725547b864e",
+            "name": "Permissions",
+            "url": "httpsapi.respoke.iov1\/adminsessions\/",
+            "description": "Full API permissions are obtained by POSTing your username and password to [base]\/adminsessions.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "password",
+                    "description": "Your password.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "username",
+                    "description": "Your username.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "255b92d6c19a3024629fe9d0331d3bb2",
+            "rawModeData": ""
+        },
+        {
+            "id": "4e9795f362f55f1b9f5032ece9faebde",
+            "name": "App Auth Sessions",
+            "url": "httpsapi.respoke.iov1\/appauthsessions\/",
+            "description": "Your users authenticate to Respoke using an App-Token obtained when they POST your tokenId to [base]\/appauthsessions.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "App-Token",
+                    "description": "Your application token.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "255b92d6c19a3024629fe9d0331d3bb2",
+            "rawModeData": ""
+        },
+        {
+            "id": "1f21a536dca1780f233b684d611c7b4c",
+            "name": "Apps",
+            "url": "httpsapi.respoke.iov1\/apps\/",
+            "description": "Create an app.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Admin-Token",
+                    "description": "Your admin token.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "255b92d6c19a3024629fe9d0331d3bb2",
+            "rawModeData": ""
+        },
+        {
+            "id": "3a46ec41b0cdc17fcf4edb7e97d17383",
+            "name": "Roles",
+            "url": "httpsapi.respoke.iov1\/roles\/",
+            "description": "Create roleId and roleName for creating tokens.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "",
+                    "description": "{     appId: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX,     name:your-role-name-here,     mediaRelay: false,     events: {         subscribe: false,         unsubscribe: false,     },     groups: {         list: true,         *: {             subscribe: true,             unsubscribe: true,             create: true,             destroy: true,             publish: true,             getsubscribers: true         }     } }",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "App-Secret",
+                    "description": "Your application secret.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "255b92d6c19a3024629fe9d0331d3bb2",
+            "rawModeData": ""
+        },
+        {
+            "id": "9c169b6eec0712847e45591e415d384d",
+            "name": "Session Tokens",
+            "url": "httpsapi.respoke.iov1\/session-tokens\/",
+            "description": "An end-user client posts a tokenId from POST [base]\/tokens to authenticate to an app as endpointId.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "",
+                    "description": "{     appId: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX,     name:your-role-name-here,     mediaRelay: false,     events: {         subscribe: false,         unsubscribe: false,     },     groups: {         list: true,         *: {             subscribe: true,             unsubscribe: true,             create: true,             destroy: true,             publish: true,             getsubscribers: true         }     } }",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "App-Token",
+                    "description": "Your application token.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "255b92d6c19a3024629fe9d0331d3bb2",
+            "rawModeData": ""
+        },
+        {
+            "id": "60c18cabe726094b8f448fee170bbabd",
+            "name": "Tokens",
+            "url": "httpsapi.respoke.iov1\/tokens\/",
+            "description": "Get an access token tokenId for an end-user.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "",
+                    "description": "{     appId: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX,     name:your-role-name-here,     mediaRelay: false,     events: {         subscribe: false,         unsubscribe: false,     },     groups: {         list: true,         *: {             subscribe: true,             unsubscribe: true,             create: true,             destroy: true,             publish: true,             getsubscribers: true         }     } }",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "App-Secret",
+                    "description": "Your application secret.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "255b92d6c19a3024629fe9d0331d3bb2",
+            "rawModeData": ""
+        },
+        {
+            "id": "132b77cf5b4df742144f0699ae6e8b8c",
+            "name": "Tokens",
+            "url": "httpsapi.respoke.iov1\/tokens\/",
+            "description": "By using the App-Secret header, you can perform API calls to obtain Respoke sessions for your users via POST to [base]\/tokens. App-Secrets are found in the Dev Console.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "App-Secret",
+                    "description": "Your application token.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "255b92d6c19a3024629fe9d0331d3bb2",
+            "rawModeData": ""
+        },
+        {
+            "id": "8fd75ff7cd224d9f19763bffdc96ad7a",
+            "name": "Turn",
+            "url": "httpsapi.respoke.iov1\/turn\/",
+            "description": "Get TURN credentials.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "App-Token",
+                    "description": "Your application token.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "255b92d6c19a3024629fe9d0331d3bb2",
+            "rawModeData": ""
+        }
+    ]
+}
