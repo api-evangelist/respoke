@@ -1,5 +1,5 @@
 {
-    "id": "255b92d6c19a3024629fe9d0331d3bb2",
+    "id": "e3454051d1f16d28fdfbfbfdc64817b0",
     "name": "Respoke REST API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "4bab811d11ee95fc870cd6faed8b2c86",
+            "id": "ef9ed11d1cb420a596b76ffd8a246f41",
             "name": "Admin Sessions",
             "url": "httpsapi.respoke.iov1\/admin-sessions\/",
             "description": "Log in with the account username and password. Get an Admin-Token.",
@@ -44,11 +44,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "255b92d6c19a3024629fe9d0331d3bb2",
+            "collectionId": "e3454051d1f16d28fdfbfbfdc64817b0",
             "rawModeData": ""
         },
         {
-            "id": "a0598091088e58fbe7cb4725547b864e",
+            "id": "f688f35216c069dc32a12c32ea62fc71",
             "name": "Permissions",
             "url": "httpsapi.respoke.iov1\/adminsessions\/",
             "description": "Full API permissions are obtained by POSTing your username and password to [base]\/adminsessions.",
@@ -82,11 +82,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "255b92d6c19a3024629fe9d0331d3bb2",
+            "collectionId": "e3454051d1f16d28fdfbfbfdc64817b0",
             "rawModeData": ""
         },
         {
-            "id": "4e9795f362f55f1b9f5032ece9faebde",
+            "id": "f174231ddafe5d8f569301d4e5745bcd",
             "name": "App Auth Sessions",
             "url": "httpsapi.respoke.iov1\/appauthsessions\/",
             "description": "Your users authenticate to Respoke using an App-Token obtained when they POST your tokenId to [base]\/appauthsessions.",
@@ -113,11 +113,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "255b92d6c19a3024629fe9d0331d3bb2",
+            "collectionId": "e3454051d1f16d28fdfbfbfdc64817b0",
             "rawModeData": ""
         },
         {
-            "id": "1f21a536dca1780f233b684d611c7b4c",
+            "id": "1b45714f2ece88c8f66d09a40ceb7bd0",
             "name": "Apps",
             "url": "httpsapi.respoke.iov1\/apps\/",
             "description": "Create an app.",
@@ -144,11 +144,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "255b92d6c19a3024629fe9d0331d3bb2",
+            "collectionId": "e3454051d1f16d28fdfbfbfdc64817b0",
             "rawModeData": ""
         },
         {
-            "id": "3a46ec41b0cdc17fcf4edb7e97d17383",
+            "id": "73a9a914174d35eb4e4ee7058f1b3329",
             "name": "Roles",
             "url": "httpsapi.respoke.iov1\/roles\/",
             "description": "Create roleId and roleName for creating tokens.",
@@ -182,11 +182,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "255b92d6c19a3024629fe9d0331d3bb2",
+            "collectionId": "e3454051d1f16d28fdfbfbfdc64817b0",
             "rawModeData": ""
         },
         {
-            "id": "9c169b6eec0712847e45591e415d384d",
+            "id": "7bfdbcab0e1baa8614fc1bf8c6debc0e",
             "name": "Session Tokens",
             "url": "httpsapi.respoke.iov1\/session-tokens\/",
             "description": "An end-user client posts a tokenId from POST [base]\/tokens to authenticate to an app as endpointId.",
@@ -220,11 +220,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "255b92d6c19a3024629fe9d0331d3bb2",
+            "collectionId": "e3454051d1f16d28fdfbfbfdc64817b0",
             "rawModeData": ""
         },
         {
-            "id": "60c18cabe726094b8f448fee170bbabd",
+            "id": "340064147aab3a7e398d7f75efa01584",
             "name": "Tokens",
             "url": "httpsapi.respoke.iov1\/tokens\/",
             "description": "Get an access token tokenId for an end-user.",
@@ -258,11 +258,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "255b92d6c19a3024629fe9d0331d3bb2",
+            "collectionId": "e3454051d1f16d28fdfbfbfdc64817b0",
             "rawModeData": ""
         },
         {
-            "id": "132b77cf5b4df742144f0699ae6e8b8c",
+            "id": "fbc584e1692e38b6b333860ff34578d4",
             "name": "Tokens",
             "url": "httpsapi.respoke.iov1\/tokens\/",
             "description": "By using the App-Secret header, you can perform API calls to obtain Respoke sessions for your users via POST to [base]\/tokens. App-Secrets are found in the Dev Console.",
@@ -289,11 +289,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "255b92d6c19a3024629fe9d0331d3bb2",
+            "collectionId": "e3454051d1f16d28fdfbfbfdc64817b0",
             "rawModeData": ""
         },
         {
-            "id": "8fd75ff7cd224d9f19763bffdc96ad7a",
+            "id": "ab4e02f780892bdee158500677e70fac",
             "name": "Turn",
             "url": "httpsapi.respoke.iov1\/turn\/",
             "description": "Get TURN credentials.",
@@ -320,7 +320,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "255b92d6c19a3024629fe9d0331d3bb2",
+            "collectionId": "e3454051d1f16d28fdfbfbfdc64817b0",
             "rawModeData": ""
         }
     ]
